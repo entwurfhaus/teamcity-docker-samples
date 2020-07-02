@@ -2,7 +2,7 @@ version: '3.7'
 
 # Default ${TEAMCITY_VERSION} is defined in .env file
 
-# ./buildserver_pgdata - Posgres DB data
+# ./postgres_data - Posgres DB data
 # ./data - TeamCity data directory
 # ./teamcity-server-logs1 - logs of primary TeamCity server
 # ./teamcity-server-logs2 - logs of secondary TeamCity server (running-builds node)
