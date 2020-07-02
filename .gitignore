@@ -1,2 +1,13 @@
+# JetBrains
 .idea
+
+# Ignore .log files
 *.log
+
+# Ignore multinode build content
+multinode/data
+multinode/postgres_data
+multinode/teamcity-agent-conf1
+multinode/teamcity-server-logs1
+multinode/teamcity-server-logs2
+multinode/teamcity-server-logs3
