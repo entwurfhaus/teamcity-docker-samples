@@ -17,8 +17,8 @@ services:
     ports:
       - 5433:5432
     environment:
-      POSTGRES_USER: teamcity
-      POSTGRES_PASSWORD: teamcity
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password
       POSTGRES_DB: teamcity
       PGDATA: /var/lib/postgresql/data/pgdata
     volumes:
